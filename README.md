@@ -1,5 +1,5 @@
 # Employee_Management
-This repository contains a project for managing employees data using REST APIs.
+This repository contains a project for managing employees and department data efficiently using REST APIs, PostgreSQL, and JWT for authentication.
 <pre>
 <h2>Overview</h2>
 This project is an Employee Management System built using:
@@ -10,9 +10,10 @@ This project is an Employee Management System built using:
 - Roles: Implemented user and admin roles with different permissions
 
 <h2>Features</h2>
-- Employee information management
-- Department management 
-- Employee-Department mapping (Department ID is a foreign key in the Employee table)
+- Employee Management: Create, read, update, and delete employee records.
+- Department Management: Manage departments, ensuring that each employee is associated with a valid department. 
+- JWT Authentication: Secure API endpoints with JSON Web Tokens for authentication and authorization.
+- Foreign Key Constraints: Maintain data integrity with a foreign key relationship between the employee and department tables.
 
 <h2>Technologies Used</h2>
 - Springboot ToolSuite(STS): To develop RESTful API
